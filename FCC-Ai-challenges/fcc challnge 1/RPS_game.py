@@ -6,7 +6,7 @@ import random
 def play(player1, player2, num_games, verbose=False):
     p1_prev_play = ""
     p2_prev_play = ""
-    results = {"p1": 0, "p2": 0, "tie": 0}
+    results = {"p1": 0, "p2": 0, "tie": 0 }
 
     for _ in range(num_games):
         p1_play = player1(p2_prev_play)
